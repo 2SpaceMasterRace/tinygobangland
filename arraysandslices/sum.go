@@ -18,6 +18,17 @@ func SumAll(numbersToSum ...[]int)[]int{
   return sums
 }
 
+func SumTails(numbersToSum ...[]int) []int  {
+  var sumtails []int
+
+  for _,numbers := range numbersToSum{
+    tails := numbers[1:]
+    sumtails = append(sumtails, Sum(tails))
+  }
+  return sumtails
+}
+
+
 func main()  {
  fmt.Println(SumAll([]int{0,5},[]int{1,3}))
 }
