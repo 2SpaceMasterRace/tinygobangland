@@ -20,14 +20,16 @@ func SumAll(numbersToSum ...[]int)[]int{
 
 func SumTails(numbersToSum ...[]int) []int  {
   var sumtails []int
-
   for _,numbers := range numbersToSum{
-    tails := numbers[1:]
-    sumtails = append(sumtails, Sum(tails))
-  }
+    if len(numbers) == 0{
+      sumtails = append(sumtails, 0)
+    }else {
+      tails := numbers[1:]
+      sumtails = append(sumtails, Sum(tails))
+    }
+   }
   return sumtails
 }
-
 
 func main()  {
  fmt.Println(SumAll([]int{0,5},[]int{1,3}))
