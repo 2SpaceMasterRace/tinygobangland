@@ -1,2 +1,2 @@
 # gobangland
-Couldn't use GoLand due to copyright issues plus I owe Jetbrains for their font so
+More focused in PL design + CLI patterns of Go // will create a detailed plan later here
