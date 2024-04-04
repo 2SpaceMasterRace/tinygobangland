@@ -166,7 +166,7 @@ https://www.amazon.com/Efficient-Go-Data-Driven-Performance-Optimization/dp/1098
 https://www.manning.com/books/grpc-microservices-in-go?utm_source=github&utm_medium=author&utm_campaign=book_babal_grpc_6_29_22
 https://go101.org/article/101.html
 https://www.manning.com/books/learn-go-with-pocket-sized-projects
-
+https://www.youtube.com/@GopherAcademy
 
 Distributed systems with Go
 https://pdos.csail.mit.edu/6.824/schedule.html
